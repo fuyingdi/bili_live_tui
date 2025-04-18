@@ -282,11 +282,17 @@ func (m model) renderDanmu() string {
 	for danmuElem := m.danmu.Front(); danmuElem != nil; danmuElem = danmuElem.Next() {
 		danmu, ok := danmuElem.Value.(*danmuMsg)
 		if ok {
+			// 时间戳
+			if LiveConfig.ShowTimestamp { // Check if timestamp display is enabled
+				timestamp := danmu.chatTime.Format("15:04:05")
+				sb.WriteString(fmt.Sprintf("[%s] ", timestamp))
+			}
+			// 牌子
 			if danmu.medal != nil {
 				sb.WriteString(medalStyle(danmu.medal))
 			}
-			sb.WriteString(fmt.Sprintln(nameStyle(danmu.uName, danmu.nameColor),
-				contentStyle(danmu.content, danmu.contentColor)))
+			// 名字和弹幕
+			sb.WriteString(fmt.Sprintf("%s %s\n", nameStyle(danmu.uName, danmu.nameColor), contentStyle(danmu.content, danmu.contentColor)))
 		}
 	}
 	return sb.String()
