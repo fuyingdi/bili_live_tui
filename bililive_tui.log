@@ -1,0 +1,44 @@
+2025-04-18T18:19:13.5837825+08:00	INFO	web/main.go:23	Starting Bilibili Live Web Server
+2025-04-18T18:19:13.5848391+08:00	INFO	live_room/live_room.go:63	Connecting to live room: 1863470530
+2025-04-18T18:19:17.1840542+08:00	INFO	web/main.go:82	Server running at http://localhost:8080
+2025-04-18T18:21:19.4141414+08:00	INFO	web/main.go:115	WebSocket connection closed: websocket: close 1001 (going away)
+2025-04-18T18:21:20.4151771+08:00	ERROR	web/main.go:133	Failed to send danmu: websocket: close sent
+2025-04-18T18:29:54.7560001+08:00	INFO	web/main.go:23	Starting Bilibili Live Web Server
+2025-04-18T18:29:54.7570279+08:00	INFO	live_room/live_room.go:63	Connecting to live room: 1863470530
+2025-04-18T18:29:58.6194045+08:00	INFO	web/main.go:82	Server running at http://localhost:8080
+2025-04-18T18:31:17.7031093+08:00	INFO	web/main.go:115	WebSocket connection closed: websocket: close 1001 (going away)
+2025-04-18T18:31:23.6426095+08:00	ERROR	web/main.go:133	Failed to send danmu: websocket: close sent
+2025-04-18T18:34:55.6563917+08:00	INFO	web/main.go:23	Starting Bilibili Live Web Server
+2025-04-18T18:34:55.6579686+08:00	INFO	live_room/live_room.go:63	Connecting to live room: 1863470530
+2025-04-18T18:34:58.4798661+08:00	INFO	web/main.go:82	Server running at http://localhost:8080
+2025-04-18T18:36:48.1414606+08:00	INFO	web/main.go:23	Starting Bilibili Live Web Server
+2025-04-18T18:36:48.1425265+08:00	INFO	live_room/live_room.go:63	Connecting to live room: 1863470530
+2025-04-18T18:36:50.9129773+08:00	INFO	web/main.go:82	Server running at http://localhost:8080
+2025-04-18T18:41:47.732512+08:00	INFO	web/main.go:115	WebSocket connection closed: websocket: close 1001 (going away)
+2025-04-18T18:41:55.1489962+08:00	ERROR	web/main.go:133	Failed to send danmu: websocket: close sent
+2025-04-18T18:43:17.4395753+08:00	INFO	web/main.go:115	WebSocket connection closed: websocket: close 1001 (going away)
+2025-04-18T18:43:22.5920276+08:00	ERROR	web/main.go:133	Failed to send danmu: websocket: close sent
+2025-04-18T18:44:32.1890616+08:00	INFO	web/main.go:115	WebSocket connection closed: websocket: close 1001 (going away)
+2025-04-18T18:44:59.3627076+08:00	ERROR	web/main.go:133	Failed to send danmu: websocket: close sent
+2025-04-18T18:48:29.6996772+08:00	INFO	web/main.go:23	Starting Bilibili Live Web Server
+2025-04-18T18:48:29.7012341+08:00	INFO	live_room/live_room.go:63	Connecting to live room: 1863470530
+2025-04-18T18:48:32.8820853+08:00	INFO	web/main.go:82	Server running at http://localhost:8080
+2025-04-18T18:50:57.5774305+08:00	INFO	web/main.go:115	WebSocket connection closed: websocket: close 1001 (going away)
+2025-04-18T18:51:48.3200898+08:00	ERROR	web/main.go:133	Failed to send danmu: websocket: close sent
+2025-04-18T18:55:48.8844556+08:00	INFO	web/main.go:23	Starting Bilibili Live Web Server
+2025-04-18T18:55:48.8855025+08:00	INFO	live_room/live_room.go:63	Connecting to live room: 1863470530
+2025-04-18T18:55:51.8968614+08:00	INFO	web/main.go:82	Server running at http://localhost:8080
+2025-04-18T19:34:23.663311+08:00	INFO	web/main.go:23	Starting Bilibili Live Web Server
+2025-04-18T19:34:23.6649296+08:00	INFO	live_room/live_room.go:63	Connecting to live room: 1863470530
+2025-04-18T19:34:27.2157968+08:00	INFO	web/main.go:82	Server running at http://localhost:8080
+2025-04-18T19:34:41.7978226+08:00	INFO	web/main.go:115	WebSocket connection closed: websocket: close 1001 (going away)
+2025-04-18T19:34:44.8837148+08:00	INFO	web/main.go:115	WebSocket connection closed: websocket: close 1001 (going away)
+2025-04-18T19:34:58.8408224+08:00	ERROR	web/main.go:133	Failed to send danmu: websocket: close sent
+2025-04-18T19:34:58.8408224+08:00	ERROR	web/main.go:133	Failed to send danmu: websocket: close sent
+2025-04-18T19:35:58.3570211+08:00	INFO	web/main.go:23	Starting Bilibili Live Web Server
+2025-04-18T19:35:58.3580628+08:00	INFO	live_room/live_room.go:63	Connecting to live room: 1863470530
+2025-04-18T19:36:01.4970975+08:00	INFO	web/main.go:82	Server running at http://localhost:8080
+2025-04-18T19:37:02.8675427+08:00	INFO	web/main.go:96	New WebSocket connection established
+2025-04-18T19:37:02.868101+08:00	INFO	web/main.go:111	Sent initial room info to client
+2025-04-18T19:40:35.5628385+08:00	INFO	web/main.go:118	WebSocket connection closed: websocket: close 1001 (going away)
+2025-04-18T19:40:42.4273603+08:00	ERROR	web/main.go:152	Failed to send danmu: websocket: close sent

@@ -1,4 +1,5 @@
-room_id = 7777
+show_timestamp = true
+room_id = 1863470530
 chat_buffer = 200
 show_room_title = false
 show_room_number = false

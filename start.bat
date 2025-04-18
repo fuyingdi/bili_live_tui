@@ -1,1 +1,4 @@
-PowerShell -Command "& {[Console]::OutputEncoding = [Text.UTF8Encoding]::UTF8};.\bililive.exe"
+@echo off
+cd /d %~dp0
+go run cmd/web/main.go
+pause

@@ -1,0 +1,231 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    background-color: #f4f5f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* 头部样式 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 20px;
+    color: #00a1d6;
+}
+
+.room-info {
+    text-align: right;
+}
+
+#room-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#streamer-name {
+    font-size: 14px;
+    color: #666;
+}
+
+#online-count {
+    font-size: 14px;
+    color: #00a1d6;
+    margin-top: 5px;
+}
+
+/* 主内容区样式 */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.danmu-container {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.danmu-area {
+    height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+/* 弹幕样式 */
+.danmu-item {
+    margin-bottom: 12px;
+    animation: fadeIn 0.3s ease;
+}
+
+.danmu-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #00a1d6;
+    margin-right: 8px;
+}
+
+.user-level {
+    font-size: 12px;
+    background-color: #00a1d6;
+    color: white;
+    padding: 1px 4px;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+.danmu-content {
+    padding: 8px 12px;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+    word-break: break-word;
+}
+
+.gift-danmu {
+    background-color: #feffe6;
+}
+
+.super-chat {
+    background-color: #fff1f0;
+    border-left: 3px solid #ff4d4f;
+}
+
+/* 互动面板样式 */
+.interaction-panel {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.send-danmu {
+    display: flex;
+    gap: 10px;
+}
+
+#danmu-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#send-btn {
+    background-color: #00a1d6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+#send-btn:hover {
+    background-color: #0091c2;
+}
+
+.room-stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-label {
+    color: #666;
+    font-size: 14px;
+}
+
+/* 页脚样式 */
+footer {
+    margin-top: 30px;
+    padding: 15px 0;
+    border-top: 1px solid #e7e7e7;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+}
+
+/* 动画 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .room-info {
+        text-align: left;
+        margin-top: 10px;
+    }
+    
+    .danmu-area {
+        height: 300px;
+    }
+}

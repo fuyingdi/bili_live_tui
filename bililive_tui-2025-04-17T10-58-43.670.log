@@ -1,0 +1,23 @@
+2025-04-17T11:54:55.9264403+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T11:55:18.8086713+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T12:36:41.3696031+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T12:37:14.674796+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T12:42:21.1634145+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T12:43:38.3740301+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T15:02:25.5686456+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T15:25:41.9286675+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T15:26:05.3353332+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T15:32:45.3784566+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T15:34:20.2490341+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T15:40:35.9152562+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T15:41:36.6829562+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T15:42:17.3254626+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T16:21:58.3931845+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T16:25:55.2980289+08:00	INFO	tui/main.go:12	tui start
+2025-04-17T16:54:32.5863903+08:00	ERROR	live_room/message_stream.go:124	unmarshal normal message error, err=json: cannot unmarshal string into Go struct field DanmuMessage.data of type map[string]interface {}
+2025-04-17T17:00:32.6681927+08:00	ERROR	live_room/message_stream.go:124	unmarshal normal message error, err=json: cannot unmarshal string into Go struct field DanmuMessage.data of type map[string]interface {}
+2025-04-17T18:30:32.5688092+08:00	ERROR	live_room/message_stream.go:124	unmarshal normal message error, err=json: cannot unmarshal string into Go struct field DanmuMessage.data of type map[string]interface {}
+2025-04-17T18:36:32.5929723+08:00	ERROR	live_room/message_stream.go:124	unmarshal normal message error, err=json: cannot unmarshal string into Go struct field DanmuMessage.data of type map[string]interface {}
+2025-04-17T18:42:32.6455617+08:00	ERROR	live_room/message_stream.go:124	unmarshal normal message error, err=json: cannot unmarshal string into Go struct field DanmuMessage.data of type map[string]interface {}
+2025-04-17T18:48:32.6438765+08:00	ERROR	live_room/message_stream.go:124	unmarshal normal message error, err=json: cannot unmarshal string into Go struct field DanmuMessage.data of type map[string]interface {}
+2025-04-17T18:54:32.6265096+08:00	ERROR	live_room/message_stream.go:124	unmarshal normal message error, err=json: cannot unmarshal string into Go struct field DanmuMessage.data of type map[string]interface {}
