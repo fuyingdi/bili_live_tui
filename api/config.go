@@ -9,5 +9,6 @@ type BiliLiveConfig struct {
 	ColorMode      bool   `toml:"color_mode"`
 	ShowRoomTitle  bool   `toml:"show_room_title"`
 	ShowRoomNumber bool   `toml:"show_room_number"`
+	ShowTimestamp  bool   `toml:"show_timestamp"` // 添加显示时间戳的配置项
 	UserAgent      string `toml:"user_agent"`
 }

@@ -282,6 +282,12 @@ func (m model) renderDanmu() string {
 	for danmuElem := m.danmu.Front(); danmuElem != nil; danmuElem = danmuElem.Next() {
 		danmu, ok := danmuElem.Value.(*danmuMsg)
 		if ok {
+			// 添加时间戳显示
+			if LiveConfig.ShowTimestamp {
+				timestamp := danmu.chatTime.Format("15:04:05")
+				sb.WriteString(timestampStyle(timestamp))
+			}
+
 			if danmu.medal != nil {
 				sb.WriteString(medalStyle(danmu.medal))
 			}

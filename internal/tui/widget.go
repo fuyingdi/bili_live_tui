@@ -75,6 +75,14 @@ var (
 			Foreground(getColor(contentColor)).
 			Render(content)
 	}
+
+	// 添加时间戳样式函数
+	timestampStyle = func(timestamp string) string {
+		return lipgloss.NewStyle().
+			Foreground(getColor("#888888")). // 使用灰色显示时间戳
+			Italic(true).                    // 使用斜体
+			Render("[" + timestamp + "] ")   // 用方括号包围时间戳
+	}
 )
 
 var (
